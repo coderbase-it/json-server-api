@@ -1,0 +1,19 @@
+{
+  "name": "coderbase-json-server",
+  "version": "1.0.0",
+  "description": "Simple json-base database to deploy to now.sh",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index.js",
+    "generate": "node api/generate.js > api/db.json"
+  },
+
+  "author": "Pierre Nédélec",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
